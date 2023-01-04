@@ -1,4 +1,4 @@
-# DSCI 554 Project
+# Visualising the Effect of Education on Crime Rate
 
  ## Team
 
