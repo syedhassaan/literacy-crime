@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pakistan",
+        "gravity": "35"
+    },
+    {
+        "name": "Iran",
+        "gravity": "81"
+    },
+    {
+        "name": "Bangladesh",
+        "gravity": "63"
+    },
+    {
+        "name": "Turkey",
+        "gravity": "87"
+    },
+    {
+        "name": "Malaysia",
+        "gravity": "74"
+    },
+    {
+        "name": "Colombia",
+        "gravity": "76"
+    },
+    {
+        "name": "Nepal",
+        "gravity": "57"
+    },
+    {
+        "name": "SriLanka",
+        "gravity": "89"
+    },
+    {
+        "name": "Uzbekistan",
+        "gravity": "90"
+    },
+    {
+        "name": "Panama",
+        "gravity": "63"
+    }
+]

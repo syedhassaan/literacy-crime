@@ -1,0 +1,96 @@
+
+        .axis path,
+        .axis line {
+          fill: none;
+          stroke: black;
+          shape-rendering: crispEdges;
+        }
+  
+        .axis text {
+          font-family: Courier;
+          font-size: 0.85em;
+        }
+  
+        text {
+          font-family: Courier;
+          font-size: 0.65em;
+        }
+  
+        div.commands {
+          font-family: Courier;
+          font-size: 0.85em;
+          font-weight: bold;
+          text-align: center;
+          cursor: default;
+          user-select: none;
+        }
+  
+        svg {
+          display: block;
+          margin: auto;
+          background-color: #fafafa;
+        }
+  
+        .bar {
+          fill: #add8e677;
+        }
+  
+        text.xlabel {
+          text-anchor: middle;
+        }
+  
+        text.ylabel {
+          text-anchor: middle;
+          alignment-baseline: central;
+        }
+  
+        text.name {
+          font-weight: bold;
+          text-anchor: middle;
+          alignment-baseline: central;
+        }
+  
+        .sort {
+          border-radius: 3px;
+          background-color: #eee;
+          display: inline-block;
+          cursor: default;
+        }
+  
+        .sort,
+        label {
+          font-family: Courier;
+          color: #444;
+          padding: 5px;
+          margin: 5px;
+        }
+  
+        label {
+          vertical-align: text-bottom;
+        }
+  
+        .filter {
+          border-radius: 3px;
+          background-color: #eee;
+          padding: 5px;
+          margin: 5px;
+          color: #444;
+          text-align: left;
+          display: inline-block;
+          cursor: default;
+        }
+        #reset {
+          border-radius: 3px;
+          background-color: #eee;
+          padding: 5px;
+          margin: 5px;
+          color: #444;
+          text-align: left;
+          display: inline-block;
+          cursor: default;
+          opacity:50%;
+        }
+  
+        #reset:hover{
+          background-color:lightblue;
+        }

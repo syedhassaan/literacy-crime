@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DSCI 554 Assignment 3</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../node_modules/highlightjs/styles/github.css">
+  <script src="../node_modules/highlightjs/highlight.pack.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="../node_modules/d3/dist/d3.min.js"></script>
+</head>
+
+<body>
+    <div>Rehan Ahmed <a href="mailto:rehanahm@usc.edu">rehanahm@usc.edu</a></div>
+
+
+
+  <div class="answer">
+
+
+<div class="commands" style="margin-left:50px;margin-right:50px;">
+    <h1>School Enrollment, Secondary (% net)</h1>
+    <p><b>Description</b></p>
+<p style="font-weight: lighter;" >Net enrollment rate is the ratio of children of official school age who are enrolled in school to the population of the corresponding official school age. Secondary education completes the provision of basic education that began at the primary level, and aims at laying the foundations for lifelong learning and human development, by offering more subject- or skill-oriented instruction using more specialized teachers.</p>
+<p>Source: </p>
+<a href = "https://data.worldbank.org/indicator/SE.SEC.NENR" target = "_blank">World Bank</a>
+<br>
+<br>
+</div>
+<div class="commands">
+    <span  id="reset" >reset</span>
+    <!-- <label><input style="margin: 0 5px 0 0" type="checkbox" checked>Earth</label> -->
+  </div>
+    <div class="commands">
+      <span class="filter" id="all">all 10</span>
+      <span class="filter" id="closer">top 5 by Value</span>
+      <span class="filter" id="farther">bottom 5 by Value</span>
+      <!-- <label><input style="margin: 0 5px 0 0" type="checkbox" checked>Earth</label> -->
+    </div>
+
+    <div class="commands">
+      <span class="sort" id="distance">alphabetic by name</span>
+      <span class="sort" id="temperature">ascending by value</span>
+      <span class="sort" id="gravity">descending by value</span>
+      
+    </div>
+
+    <div id="chart"></div>
+    <script src="script.js"></script>
+
+  
+  </div>
+
+</body>

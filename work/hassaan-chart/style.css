@@ -1,0 +1,43 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  margin: 20px 40px 20px 40px;
+}
+
+h2 {
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+  font-size: 1.5em;
+}
+
+text {
+  font-family: Courier;
+  font-size: 0.65em;
+}
+
+
+svg {
+  display: block;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+.bar {
+  fill: #add8e677;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
